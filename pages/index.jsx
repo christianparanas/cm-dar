@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react'
 
 
+// compoenents
+import Nav from '../components/Nav'
 
 
 export default function Home() {
@@ -14,7 +16,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main className="main">
+        <Nav />
         <h1><span>Daryl </span><span> AlVAREZ</span></h1>
         <h2>From BSIT 2E</h2>
       </main>
