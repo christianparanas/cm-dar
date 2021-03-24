@@ -16,15 +16,14 @@ a {
 }
 
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body,
 html {
   height: 100%;
 }
 
-body {
-  font-family: "Luckiest Guy", cursive;
-}
 
 .main {
 	padding: 20px;
@@ -35,9 +34,9 @@ body {
     rgba(255, 252, 0, 1) 0%,
     rgba(240, 237, 23, 1) 100%
   );
-}
 
-h1 {
+  h1 {
+  font-family: "Luckiest Guy", cursive;
 	text-align: center;
   margin-top: 150px;
   font-size: 4em;
@@ -83,9 +82,15 @@ h1 {
 
 h2 {
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
 }
 
+
 .nav {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 
 	.upper_nav {
 		display: grid;
@@ -138,4 +143,101 @@ h2 {
 		width: 100%;
 	}
 
+}
+
+
+.chapter {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+
+	.nav {
+			padding: 20px 30px;
+		}
+
+	.content {
+		padding: 0 20px;
+		font-size: 12px;
+		overflow: scroll;
+
+		.title { 
+			text-align: center;
+			font-size: 18px;
+			background: yellow;
+			width: fit-content;
+			padding: 10px 20px;
+			text-transform: uppercase;
+			font-weight: 200;
+			margin: 0 auto 40px;
+		}
+
+		dl {
+			padding-left: 40px;
+		}
+
+		.list-tit {
+			margin: 20px 30px 0;
+			width: fit-content;
+			background: yellow;
+			padding: 5px 10px;
+		}
+
+		.aa {
+			border-bottom: 1px solid yellow;
+			width: fit-content;
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+
+		.tour {
+			font-size: 20px;
+			background: yellow;
+			width: fit-content;
+			margin-bottom: 20px;
+			padding: 5px 10px;
+
+		}
+
+
+		.dis-con {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 10px;
+			margin-bottom: 60px;
+
+			img {
+				width: 100%;
+			}
+
+			div {
+				margin-bottom: 10px;
+			}
+		}
+
+
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	.chapter {
+
+		.content {
+			.dis-con {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-gap: 10px;
+
+			img {
+				width: 100%;
+			}
+
+			div {
+				margin-bottom: 10px;
+			}
+		}
+		}
+	}
+	
 }

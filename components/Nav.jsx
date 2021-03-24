@@ -1,5 +1,6 @@
 import { Rotate as Hamburger } from 'hamburger-react'
 import { useState, useEffect } from 'react' 
+import Link from 'next/link'
 
 
 export default function Nav() {
@@ -31,14 +32,14 @@ export default function Nav() {
 			</div>
 			<div onClick={closeNavOverlay} className={open_click}></div>
 			<div className={openOverlay}>
-				<div>Home</div>
-				<div>Activity 2</div>
-				<div>Activity 3</div>
-				<div>Activity 4</div>
-				<div>Activity 5</div>
-				<div>Activity 6</div>
-				<div>Activity 7</div>
-				<div>Activity 8</div>
+				<Link href="/"><div>Home</div></Link>
+				<Link href="/acts/chapter2"><div>Activity 2</div></Link>
+				<Link href="/acts/chapter3"><div>Activity 3</div></Link>
+				<Link href="/acts/chapter4"><div>Activity 4</div></Link>
+				<Link href="/acts/chapter5"><div>Activity 5</div></Link>
+				<Link href="/acts/chapter6"><div>Activity 6</div></Link>
+				<Link href="/acts/chapter7"><div>Activity 7</div></Link>
+				<Link href="/acts/chapter8"><div>Activity 8</div></Link>
 			</div>
 		</div>
 	)
