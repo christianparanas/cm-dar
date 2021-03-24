@@ -8,11 +8,19 @@ export default function chapter8() {
 
 			<Nav />
 			<div className="content">
-			<div className="title">Chapter 8</div>
-				<h1>WELCOME TO HTML</h1>
-				<h2>Eastern Visayas State University</h2>
-				<h2><i>College of Engineering</i></h2> 
-				<h2><i>Information Technology Department</i></h2>
+				<div className="title">Chapter 8</div>
+				<div className="chap8Tit">Registration Form</div>
+
+				<form action="">
+					<input type="text" placeholder="Full name" />
+					<input type="email" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<input type="number" placeholder="Age" />
+					<input type="file" />
+					<input type="submit" />
+
+				</form>
+
 			</div>
 		</div>
 	)
