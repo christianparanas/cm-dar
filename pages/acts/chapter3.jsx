@@ -13,11 +13,11 @@ export default function chapter3() {
 	
 				<h2><u>Personal Information:</u></h2>
 <pre>{`
-Last Name 	:	Magaan
-First Name 	:	Kristal Kate
+Last Name 	:	Alvarez
+First Name 	:	Darryl Dave
 Middle Name 	:	
-Age		:	18
-Birthday	:	January 29, 2000
+Age		:	21
+Birthday	:	January 16, 2000
 Educational Attainment:
 Elementary	:	Kapangian Central School
 Year Graduated	:   	2012
