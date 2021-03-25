@@ -16,13 +16,13 @@ export default function chapter3() {
 Last Name 	:	Alvarez
 First Name 	:	Darryl Dave
 Middle Name 	:	
-Age		:	21
-Birthday	:	January 16, 2000
+Age		:	20
+Birthday	:	June 7, 2000
 Educational Attainment:
-Elementary	:	Kapangian Central School
+Elementary	:	Brgy Gov. E. Jaro Elementary School
 Year Graduated	:   	2012
 	
-Secondary	:	Leyte National High School
+Secondary	:	San Agustin National High School
 Year Graduated	:	2016
 Tertiary	:	Eastern Visayas State University
 Degree		:	Bachelor of Schience in Information Technology
