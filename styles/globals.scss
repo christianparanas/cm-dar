@@ -153,11 +153,18 @@ h2 {
 	.nav {
 			padding: 20px 30px;
 		}
+	
+	.content::-webkit-scrollbar {
+	  display: none;
+	}
 
 	.content {
 		padding: 0 20px;
 		font-size: 12px;
 		overflow: scroll;
+		-ms-overflow-style: none;  /* IE and Edge */
+ 		 scrollbar-width: none;  /* Firefox */
+		
 
 		table {
 			width: 100%;
